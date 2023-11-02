@@ -7,8 +7,6 @@
       <class name="test_cases.Verify_that_user_can_calculate_blood_test_cost"/>
       <class name="test_cases.Verify_that_user_can_view_toDo_list"/>
       <class name="test_cases.Verify_that_user_can_add_new_patient_details"/>
-     
-      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
