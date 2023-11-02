@@ -6,7 +6,7 @@
       <class name="test_cases.Verify_that_user_can_calculate_blood_test_cost"/>
       <class name="test_cases.Verify_that_user_can_view_toDo_list"/>
       <class name="test_cases.Verify_that_user_can_add_new_patient_details"/>
-      <class name="pom_classes.Add_patient_page"/>
+     
       <class name="test_cases.Verify_that_user_can_login_using_valid_credential"/>
     </classes>
   </test> <!-- Test -->
