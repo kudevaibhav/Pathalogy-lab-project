@@ -13,7 +13,7 @@ public class Dashboard_page {
 	
 	@FindBy(xpath="(//span[@class='MuiButton-label'])[1]") private WebElement todolist;
 	
-	@FindBy(xpath="//h6[text()='Doctor']") private WebElement scroll;
+	
 	
 	
 	
@@ -29,15 +29,14 @@ public class Dashboard_page {
 	public void todolist() throws InterruptedException {
 		
 		todolist.click();
-	    Thread.sleep(2000);
+		todolist.click();
+	    Thread.sleep(5000);
 		
 	    JavascriptExecutor js= (JavascriptExecutor)driver;
 		
-		js.executeScript("argument[0].scrollintoView(true);",scroll );
+		js.executeScript("window.scrollBy(0,900)");
 		
 		Thread.sleep(2000);
-		
-		driver.navigate().back();
 	}
 	
 	
