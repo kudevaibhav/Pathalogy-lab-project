@@ -98,22 +98,21 @@ public class Add_patient_page extends Utility_class{
  
   public void generalDetails() throws  InterruptedException {
 	 
-	  Height.sendKeys("");
+	  Height.sendKeys("152");
 	 
-	 weight.sendKeys("");
+	 weight.sendKeys("65");
 	 
 	 Thread.sleep(2000);
 	 gender.click();
 	 
-	 male.click();
-     gender.click();
+	 
 	 
 	 male.click();
-	 age.sendKeys("");
+	 age.sendKeys("25");
 	 
-	 bloodp.sendKeys("");
+	 bloodp.sendKeys("78");
 	 
-	 bloodp2.sendKeys("");
+	 bloodp2.sendKeys("87");
 	 Thread.sleep(2000);
 	 addtest.click();
 	 
